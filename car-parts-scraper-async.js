@@ -18,7 +18,7 @@ client.connect();
 createTable(client);
 const range = (start, end) =>
   new Array(end - start).fill().map((d, i) => i + start);
-const pageRange = range(1, 2);
+const pageRange = range(1, 5); // SET MAX PAGE NUMBER
 
 pageRange.map((currPage) => {
   (async () => {
