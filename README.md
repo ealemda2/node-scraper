@@ -1,6 +1,6 @@
 # node-scraper
 
-Basic setup for web scraping with Node, Puppeteer, and saving data into Postgres
+Basic setup for web scraping with Node, Puppeteer + Cheerio, and saving data into Postgres
 
 Requires *Node v10+*
 
